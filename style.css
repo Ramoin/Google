@@ -1,0 +1,161 @@
+/* General */
+
+html
+{
+	font-family: arial;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+input:focus{
+	border: none;
+}
+
+/* Header */
+
+nav a
+{
+	text-decoration: none;
+	color: #181818;
+	font-size: 0.9em;
+}
+ul
+{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+li
+{
+	display: flex;
+	margin: 0px 10px;
+}
+
+.case_header
+{
+	margin-top: 15px;
+}
+
+#app{
+	width: 25px;
+	height: 25px;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+
+/* Body */
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section
+{
+	display: flex;
+	margin: 8.5em;
+	flex-direction: column;
+	align-items: center;	
+}
+
+a.micro{
+	position: relative;
+	align-self: flex-end;
+	bottom: 6.5em;
+	padding-right: 14.2em;
+}
+
+.image_micro{
+	width: 35px;
+	height: 30px;
+}
+
+#searchbar {
+	width: 550px;
+	height: 38px;
+	margin-bottom: 30px;
+	margin-top: 13px;
+	border-radius: 20px;
+	border : 1px solid #ECECEC;
+	font-family: arial;
+	font-size: 1em;
+	padding-left: 1.2em;
+}
+
+#searchbar:hover{
+	box-shadow: 3px 3px 3px rgb(204, 204, 204);
+}
+
+input:focus{
+	outline: 0;
+}
+
+.bouton
+{
+   width: 150px;
+   height: 38px;
+   font-size: 15px;
+   background-color: rgb(242, 242, 242);
+   border-radius: 5px;
+   border: rgb(242, 242, 242);
+   margin: 0px 4px;
+   color: rgb(89, 89, 89);
+   border : 1px solid #ECECEC;
+   cursor: pointer;
+ }
+
+.bouton:hover{
+	color: black;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: 1px 1px 1px rgb(204, 204, 204);
+}
+
+ /* Footer */
+
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 80em;
+}
+
+ #pays{
+ 	display: flex;
+ 	border : 1px solid #ECECEC;
+ 	background-color: rgb(242, 242, 242);
+ 	padding-left: 30px;
+ 	color: rgb(153, 153, 153);
+ }
+
+ #en_bas{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	border : 1px solid #ECECEC;
+ 	background-color: rgb(242, 242, 242);
+ }
+
+ #footer_gauche{
+ 	padding-left : -20em;
+ 	margin-left: -1.2em;
+ }
+
+ #footer_droit{
+ 	margin-right: -34em;
+ 	padding-bottom: -20em;
+ }
+
+ #en_bas a{
+ 	text-decoration: none;
+ 	font-size: 0.8em;
+ 	color: rgb(128, 128, 128);
+ }
+
+ #en_bas a:hover{
+ 	text-decoration: underline;
+}
