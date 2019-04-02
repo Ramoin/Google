@@ -45,7 +45,8 @@ li
 
 body{
 	height: 100vh;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 section
@@ -84,16 +85,17 @@ section
  /* Footer */
 
 footer{
-	position: relative;
-	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0;
 }
 
  #pays{
  	display: flex;
  	border : 1px solid #ECECEC;
  	background-color: rgb(242, 242, 242);
- 	padding-left: 30px;
+ 	padding-left: 40px;
  	color: rgb(153, 153, 153);
+ 	width: 88em;
  }
 
  #en_bas{
@@ -105,7 +107,7 @@ footer{
 
  #footer_gauche{
  	padding-left : -20em;
- 	margin-left: -1.2em;
+ 	margin-left: -0.6em;
  }
 
  #footer_droit{
