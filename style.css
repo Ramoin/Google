@@ -1,0 +1,125 @@
+html
+{
+	font-family: arial;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+/* Header */
+nav a
+{
+	text-decoration: none;
+	color: #181818;
+	font-size: 0.9em;
+}
+ul
+{
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+li
+{
+	display: flex;
+	margin: 0px 10px;
+}
+
+.case_header
+{
+	margin-top: 15px;
+}
+
+#app{
+	width: 25px;
+	height: 25px;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+
+/* Body */
+
+body{
+	height: 100vh;
+	margin: 0px;
+}
+
+section
+{
+	display: flex;
+	margin: 8.5em;
+	flex-direction: column;
+	align-items: center;	
+}
+
+#searchbar {
+	width: 550px;
+	height: 38px;
+	margin-bottom: 30px;
+	margin-top: 13px;
+	border-radius: 20px;
+	border : 1px solid #ECECEC;
+}
+
+#searchbar:hover{
+	box-shadow: 3px 3px 3px rgb(204, 204, 204);
+}
+
+.bouton
+{
+   width: 150px;
+   height: 38px;
+   font-size: 15px;
+   background-color: rgb(242, 242, 242);
+   border-radius: 5px;
+   border: none;
+   margin: 0px 4px;
+   color: rgb(89, 89, 89);
+ }
+
+ /* Footer */
+
+footer{
+	position: relative;
+	margin-bottom: 0px;
+}
+
+ #pays{
+ 	display: flex;
+ 	border : 1px solid #ECECEC;
+ 	background-color: rgb(242, 242, 242);
+ 	padding-left: 30px;
+ 	color: rgb(153, 153, 153);
+ }
+
+ #en_bas{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	border : 1px solid #ECECEC;
+ 	background-color: rgb(242, 242, 242);
+ }
+
+ #footer_gauche{
+ 	padding-left : -20em;
+ 	margin-left: -1.2em;
+ }
+
+ #footer_droit{
+ 	padding-right: -10em;
+ 	margin-right: -45em;
+ 	padding-bottom: -20em;
+ }
+
+ #en_bas a{
+ 	text-decoration: none;
+ 	font-size: 0.8em;
+ 	color: rgb(128, 128, 128);
+ }
+
+ #en_bas a:hover{
+ 	text-decoration: underline;
+}
